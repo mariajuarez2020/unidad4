@@ -1,0 +1,105 @@
+body{
+    background-image: url(imagenes/fondo.png);
+}
+#contenedor{
+    background-color: #fff;
+    width: 960px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    width: 960px;
+    height: 260px;
+    background-image: url(imagenes/banner\ \(1\).png);
+}
+header h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 65px;
+}
+ul li a{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+        
+}
+ul{
+    list-style: none;
+    font-size: 20px;
+}      
+nav{
+    width: 350px;
+    height: 170px;
+    background-color:transparent;
+   
+}  
+nav ul li {
+    display:inline-block;
+    
+} 
+
+nav li a{
+    color:#fff;
+    margin-right: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+article{
+    width: 960px;
+    height: 500px;
+    background-image: url(imagenes/fondo\ 2.png);
+    float: left;
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:blueviolet;
+    text-align: center;
+    margin-right: 20px;
+    text-decoration: solid;
+}
+#colum-izq{
+    width: 500px;
+    height: 400px;
+    background-color: firebrick;
+    float: left;
+    margin-right: 20px;
+    margin-left: 8px;
+    background-color:transparent;
+}
+p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#fff;
+    text-align: justify;
+    font-size: 20px;
+    margin-left: 5px;
+}
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:cadetblue;
+    margin-left: 5px;
+   
+    
+}
+footer{
+    background-color:black;
+    width: 960px;
+    height:60px;
+    clear: both;
+ 
+}
+footer ul li {
+    display:inline-block;
+    margin-top: 20px;
+}
+footer li a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    font-size: 15px;
+}
+footer ul{
+    text-align: center;
+}
